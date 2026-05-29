@@ -45,6 +45,19 @@ The objective was to identify malicious infrastructure, extract indicators of co
 
 ![URLScan](screenshots/urlscan-threat-intelligence.png)
 
+### VirusTotal Analysis
+
+![VirusTotal](screenshots/virustotal-analysis.png)
+
+## Key Findings
+
+- Confirmed phishing domain using PhishTank intelligence.
+- Domain hosted on Tencent Cloud infrastructure.
+- URLScan identified the associated IP address as 43.156.5.185.
+- VirusTotal reported multiple security vendors classifying the domain as phishing or malicious.
+- Domain naming convention attempted to impersonate a government parking service.
+- Site became unavailable shortly after analysis, indicating potential takedown or infrastructure removal.
+
 ### Site Availability Check
 
 ![Site Unreachable](screenshots/site-unreachable.png)
