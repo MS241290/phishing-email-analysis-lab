@@ -129,3 +129,27 @@ Several indicators increased confidence that the domain was malicious:
 - Verified phishing classification within PhishTank
 
 The combination of these indicators strongly suggests the infrastructure was established specifically for phishing activity.
+
+## Threat Intelligence Enrichment
+
+### VirusTotal Analysis
+
+The phishing domain was analyzed using VirusTotal.
+
+Findings:
+
+- 5 out of 92 security vendors classified the URL as malicious, phishing, or spam.
+- Multiple vendors classified the domain as phishing.
+- One vendor classified the domain as spam.
+- Analysis occurred within 12 hours of detection.
+
+### Indicators of Compromise (IOCs)
+
+- Domain: gov-parkingqo.cyou
+- IP Address: 43.156.5.185
+- ASN: AS132203
+- Hosting Provider: Tencent Cloud
+
+### Assessment
+
+VirusTotal detections provided additional confidence that the domain was malicious. Combined with PhishTank verification, URLScan infrastructure analysis, and the suspicious domain naming convention, the evidence strongly supports classification as a phishing campaign. Immediate blocking and monitoring actions would be recommended in a production environment.
