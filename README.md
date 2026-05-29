@@ -47,7 +47,7 @@ The objective was to identify malicious infrastructure, extract indicators of co
 
 ### VirusTotal Analysis
 
-![VirusTotal](screenshots/virustotal-analysis.png)
+![VirusTotal](screenshots/virustotal-detection-analysis.png)
 
 ## Key Findings
 
