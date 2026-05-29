@@ -64,9 +64,7 @@ The objective was to identify malicious infrastructure, extract indicators of co
 
 ## Investigation Report
 
-Full report available here:
-
-[Phishing Investigation Report](reports/phishing-investigation-report.md)
+Full report available here: [Phishing Investigation Report](reports/investigation-notes.md)
 
 ## Key Findings
 
