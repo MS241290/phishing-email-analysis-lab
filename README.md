@@ -49,6 +49,15 @@ The objective was to identify malicious infrastructure, extract indicators of co
 
 ![VirusTotal](screenshots/virustotal-detection-analysis.png)
 
+
+### Site Availability Check
+
+![Site Unreachable](screenshots/site-unreachable.png)
+
+## Investigation Report
+
+[Phishing Investigation Report](reports/phishing-investigation-report.md)
+
 ## Key Findings
 
 - Confirmed phishing domain using PhishTank intelligence.
@@ -57,22 +66,6 @@ The objective was to identify malicious infrastructure, extract indicators of co
 - VirusTotal reported multiple security vendors classifying the domain as phishing or malicious.
 - Domain naming convention attempted to impersonate a government parking service.
 - Site became unavailable shortly after analysis, indicating potential takedown or infrastructure removal.
-
-### Site Availability Check
-
-![Site Unreachable](screenshots/site-unreachable.png)
-
-## Investigation Report
-
-Full report available here: [Phishing Investigation Report](reports/investigation-notes.md)
-
-## Key Findings
-
-- Confirmed phishing domain using PhishTank intelligence.
-- Extracted infrastructure indicators including IP address and ASN.
-- Performed URLScan threat intelligence enrichment.
-- Identified newly registered infrastructure consistent with phishing activity.
-- Documented containment and response recommendations.
 
   
 ## Author
