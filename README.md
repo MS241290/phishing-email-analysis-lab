@@ -1,10 +1,6 @@
 # phishing-email-analysis-lab
 Phishing email analysis lab focused on header analysis, IOC extraction, threat intelligence enrichment, and incident response reporting.
 
-# Phishing Email Investigation Report
-
-# Phishing Email Analysis Lab
-
 ## Project Overview
 
 This project demonstrates the investigation of a phishing campaign using publicly available threat intelligence from PhishTank.
@@ -31,32 +27,48 @@ The objective was to identify malicious infrastructure, extract indicators of co
 6. Document containment actions
 7. Produce incident report
 
-## Evidence
+## Investigation Evidence
 
-### Phishing URL Discovery
+### PhishTank Threat Intelligence Feed
 
-![Phishing URL Discovery](screenshots/phishing-url-discovery.png)
+![Threat Feed](screenshots/phishing-url-discovery.png)
 
-### Threat Intelligence Verification
+### PhishTank Verification
 
-![Threat Verification](screenshots/phishtank-verification.png)
+![Verification](screenshots/phishtank-verification.png)
 
 ### Technical Details
 
 ![Technical Details](screenshots/technical-details.png)
 
-### Site Unreachable
+### URLScan Threat Intelligence
+
+![URLScan](screenshots/urlscan-threat-intelligence.png)
+
+### Site Availability Check
 
 ![Site Unreachable](screenshots/site-unreachable.png)
 
 ## Investigation Report
 
-See:
+Full report available here:
 
-reports/phishing-investigation-report.md
+[Phishing Investigation Report](reports/phishing-investigation-report.md)
 
+## Key Findings
+
+- Confirmed phishing domain using PhishTank intelligence.
+- Extracted infrastructure indicators including IP address and ASN.
+- Performed URLScan threat intelligence enrichment.
+- Identified newly registered infrastructure consistent with phishing activity.
+- Documented containment and response recommendations.
+
+  
 ## Author
 
 Matt Stokes
 
-Aspiring SOC Analyst / Cybersecurity Professional
+Aspiring SOC Analyst | IT Support Technician | Cybersecurity Enthusiast
+
+GitHub: https://github.com/MS241290
+
