@@ -101,3 +101,31 @@ If this phishing site had been detected within a production environment, the fol
 7. Submit indicators to security monitoring tools.
 8. Notify affected users and stakeholders.
 9. Report the phishing site to the hosting provider.
+
+## Threat Intelligence Enrichment
+
+### URLScan Analysis
+
+The phishing domain was submitted to URLScan for infrastructure analysis.
+
+Findings:
+
+- Domain: www.gov-parkingqo.cyou
+- IP Address: 43.156.5.185
+- ASN: AS132203
+- Hosting Provider: Tencent Cloud
+- Location: Singapore
+- TLS Certificate Validity: 3 Months
+- Domain Age: Approximately 21 Hours
+
+### Analysis
+
+Several indicators increased confidence that the domain was malicious:
+
+- Newly registered domain
+- Government-themed impersonation
+- Hosting infrastructure commonly abused by threat actors
+- Short-lived TLS certificate
+- Verified phishing classification within PhishTank
+
+The combination of these indicators strongly suggests the infrastructure was established specifically for phishing activity.
